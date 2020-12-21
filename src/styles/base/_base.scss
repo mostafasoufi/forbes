@@ -18,10 +18,16 @@ body {
     overflow-x: hidden;
     overflow-y: visible;
     font-size: $font-size-base;
+    background-color: $white;
 }
 
 p {
     line-height: $line-height-base;
+    font-family: $font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family;
 }
 
 img {
@@ -34,14 +40,7 @@ a {
     text-decoration: none;
 }
 
-.hr {
-    border-bottom: 1px solid $silver;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
-
-.social-icon {
-    font-size: 0px;
-    color: $transparent;
+.auto-margin{
+  margin-top: auto;
+  margin-bottom: auto;
 }

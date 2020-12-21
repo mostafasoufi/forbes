@@ -1,5 +1,35 @@
-// Page example
+.header {
+  background-color: #F2F2F2;
 
-.header{
-  background-color: #D8D8D8;
+  .header__title {
+    padding: 20px 0;
+  }
+
+  .header__logo {
+    padding: 69px 0;
+
+    img {
+
+    }
+  }
+
+  .header__slogan {
+    text-align: center;
+
+    h2 {
+      font-size: 40px;
+
+      &:before {
+        content: '“';
+        color: #00ACCD;
+      }
+
+      &:after {
+        content: '”';
+        color: #00ACCD;
+      }
+    }
+  }
 }
+
+

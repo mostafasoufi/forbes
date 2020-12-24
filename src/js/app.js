@@ -1,3 +1,6 @@
+// Libraries
 import '../styles/app.scss';
+import 'flickity/js/index';
 
-console.info('Hola!');
+// Components
+import "./news-slider";

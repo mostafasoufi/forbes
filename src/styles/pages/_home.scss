@@ -9,15 +9,20 @@
     padding: 69px 0;
 
     img {
-
+      width: 207.44px;
+      height: 54.46px;
     }
   }
 
   .header__slogan {
     text-align: center;
 
+
     h2 {
+      font-family: Helvetica;
       font-size: 40px;
+      color: #373535;
+      line-height: 52px;
 
       &:before {
         content: '“';
@@ -30,6 +35,33 @@
       }
     }
   }
+
+  .news-block {
+
+    .news-block__item {
+      font-family: Helvetica;
+      color: #373535;
+
+      .news-block-item__date {
+        font-family: Helvetica-Light;
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      .news-block-item__title {
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      .news-block-item__content {
+
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      .news-block-item__link {
+
+      }
+    }
+  }
 }
-
-

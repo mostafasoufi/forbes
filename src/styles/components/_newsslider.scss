@@ -1,38 +1,11 @@
-.carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-
-.news-slider__progress {
-  height: 20px;
-  width: 0;
-  background: #333;
-}
-
-.flickity-page-dots {
-  bottom: -40px;
-}
-
-
 .news-slider {
+  padding: 107px 0 40px 0;
+
   .news-slider__items {
     .news-slider__item {
       font-family: Helvetica;
       color: #373535;
+      width: 50%;
 
       .news-slider-item__date {
         font-family: Helvetica-Light;
@@ -54,9 +27,83 @@
       }
 
       .news-slider-item__link {
-
+        background-image: url("../images/arrow.svg");
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: 30px;
       }
     }
   }
 
+  .news-slider__progress {
+    background-color: #bbdde7;
+    margin: 71px 0 0 0;
+
+    .js-news-slider__progress {
+      height: 4px;
+      width: 0;
+      background: #00ACCD;
+    }
+  }
 }
+
+.flickity-page-dots {
+  bottom: -40px;
+}
+
+.flickity-viewport{
+  overflow: visible;
+}
+
+.flickity-button {
+  background: none;
+  width: 62px;
+  height: 62px;
+  background-size: 62px;
+  opacity: 0.6;
+  transition: width 2s;
+  top: 172px;
+
+  .flickity-button-icon {
+    display: none;
+  }
+
+  .arrow {
+    fill: #b32d2d;
+  }
+
+  .no-svg {
+    color: white;
+  }
+
+  &.flickity-prev-next-button {
+
+  }
+
+  &.previous {
+    background-image: url("../images/arrow-radius-left.svg");
+
+    &:hover {
+      width: 62px;
+      height: 62px;
+      background-size: 62px;
+      background-image: url("../images/arrow-radius-left.svg");
+      background-color: transparent;
+      opacity: 1;
+    }
+  }
+
+  &.next {
+    background-image: url("../images/arrow-radius-right.svg");
+
+    &:hover {
+      width: 62px;
+      height: 62px;
+      background-size: 62px;
+      background-image: url("../images/arrow-radius-right.svg");
+      background-color: transparent;
+      opacity: 1;
+    }
+  }
+}
+

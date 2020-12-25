@@ -22,7 +22,7 @@ const config = {
         rules: [
             {
                 test: /\.scss$/,
-                use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
+                use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader?url=false', 'postcss-loader', 'sass-loader', 'resolve-url-loader'],
             }
         ]
     },

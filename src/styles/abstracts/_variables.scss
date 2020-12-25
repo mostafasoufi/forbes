@@ -1,5 +1,5 @@
 // Colours
-$theme-colour:  rgb(136,176,75);
+$theme-colour:  rgb(0, 172, 205);
 $black:         rgb(0,0,0);
 $white:         rgb(255,255,255);
 $gray:          rgb(128,128,128);
@@ -7,8 +7,8 @@ $silver:        rgb(192,192,192);
 $transparent:   rgba(255, 255, 255, 0);
 $text-colour:   rgb(0, 0, 0);
 
-$primary-colour: $theme-colour;
-$secondary-colour: $white;
+$primary-colour: $white;
+$secondary-colour: $theme-colour;
 
 // Typography
 $font-family: 'Pontano Sans', sans-serif;
@@ -47,7 +47,7 @@ $logo-size-horizontal: 100rem;
 
 
 // Buttons
-$btn-border-radious: $border-radious; 
+$btn-border-radious: $border-radious;
 $btn-font-weight: 400;
 $btn-font-size: $font-size-base;
 $btn-width: 20rem;

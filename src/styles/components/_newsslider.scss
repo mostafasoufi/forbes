@@ -51,7 +51,7 @@
   bottom: -40px;
 }
 
-.flickity-viewport{
+.flickity-viewport {
   overflow: visible;
 }
 
@@ -76,8 +76,8 @@
     color: white;
   }
 
-  &.flickity-prev-next-button {
-
+  &:disabled {
+    display: none;
   }
 
   &.previous {

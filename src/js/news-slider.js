@@ -3,7 +3,7 @@ var newsSlider = document.querySelector('.js-news-slider')
 var progressBar = document.querySelector('.js-news-slider__progress')
 
 var flkty = new Flickity(newsSlider, {
-    groupCells: 2,
+    groupCells: true,
     pageDots: false,
 })
 

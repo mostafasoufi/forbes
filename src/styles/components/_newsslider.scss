@@ -7,6 +7,10 @@
       color: #373535;
       width: 50%;
 
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
       .news-slider-item__date {
         font-family: Helvetica-Light;
         font-size: 14px;
@@ -55,6 +59,10 @@
 
 .flickity-viewport {
   overflow: visible;
+
+  @media (max-width: 768px) {
+    overflow: hidden;
+  }
 }
 
 .flickity-button {
